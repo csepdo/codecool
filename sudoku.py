@@ -2,6 +2,7 @@ import os
 
 # Creating a matrix.
 description = 'This is a Sudoku game. The objective is to fill a 9×9 \ngrid with digits so that each column, each row, \nand each of the nine 3×3 boxes that compose \nthe grid contains all of the digits from 1 to 9. \nTo fill the board. you have to give the coordinates (row, column),\nand the digit you want to enter (e.g.: 0 1 2).\nIf you want to delete a digit, yout type 0 after the coordinates.\nThe coordinates 0 0 indicate the top left corner.'
+#timetable = [[""] * 24 for day in range(7)]
 col = 9
 row = 9
 e = ' '
